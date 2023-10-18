@@ -27,9 +27,9 @@ proyecto base con poetry, docker, cronjob, typer, postgres
 
 ## ejecutar el proyecto
 
-    poetry python main.py crear-item "--nuevo item"
+    poetry run python main.py crear-item "--nuevo item"
 
-    poetry python main.py listar-items  
+    poetry run python main.py listar-items  
 
 ## Ejecución con docker
 
