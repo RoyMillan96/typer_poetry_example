@@ -27,4 +27,4 @@ RUN crontab /etc/cron.d/my-cron-job
 CMD service cron start && poetry run python cron_service_cleaner.py
 
 # Definir variables de entorno
-ENV apikey='123456789'
+ENV apikey='kxiSQEbqAlvHjVWA8NRVbpXUGfilvuGq'
