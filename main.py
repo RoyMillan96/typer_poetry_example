@@ -1,6 +1,4 @@
 import typer
-import requests
-import os
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import declarative_base
