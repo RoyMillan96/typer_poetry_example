@@ -1,1 +1,1 @@
-* * * * * /Documentos/grupo_salinas/typer_poetry_example/poetry run python /Documentos/grupo_salinas/typer_poetry_example/main.py
+*/5 * * * * /usr/local/bin/poetry run python /app/main.py fetch-data "toluca"

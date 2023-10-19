@@ -7,7 +7,7 @@ from sqlalchemy.orm import declarative_base
 app = typer.Typer()
 
 # Configura la conexión a la base de datos con SQLAlchemy
-DATABASE_URL = "postgresql://postgres:1234@localhost:5432/db_salinas"
+DATABASE_URL = "postgresql://postgres:@localhost:5433/db_salinas"
 engine = create_engine(DATABASE_URL)
 
 # Define un modelo utilizando SQLAlchemy
