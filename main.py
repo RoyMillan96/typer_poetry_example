@@ -47,10 +47,11 @@ def listar_items():
     for item in items:
         typer.echo(f"ID: {item.id}, Nombre: {item.name}")
 
+@app.command()
 def fetch_data(name_city: str):
     # URL del endpoint externo que deseas consultar
-    api_key = 'apikey'
-    url = 'url' + 'locations/v1/cities/search'
+    api_key = 'kxiSQEbqAlvHjVWA8NRVbpXUGfilvuGq'
+    url = 'http://dataservice.accuweather.com/locations/v1/cities/search'
 
     params = {
             'q': name_city,
