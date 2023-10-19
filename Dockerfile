@@ -24,4 +24,7 @@ RUN chmod 0644 /etc/cron.d/my-cron-job
 RUN crontab /etc/cron.d/my-cron-job
 
 # Command to run your Python application and start cron in the foreground
-CMD service cron start && poetry run python main.py
+CMD service cron start && poetry run python cron_service_cleaner.py
+
+# Definir variables de entorno
+ENV apikey='123456789'
