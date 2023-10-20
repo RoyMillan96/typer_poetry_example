@@ -1,1 +1,1 @@
-*/5 * * * * /usr/local/bin/poetry run python /app/main.py fetch-data "toluca"
+*/5 * * * * /usr/local/bin/poetry run python /app/cron_service_cleaner.py fetch-data "toluca"
